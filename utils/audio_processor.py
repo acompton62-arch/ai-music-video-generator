@@ -34,7 +34,7 @@ class AudioProcessor:
         try:
             import librosa
             import numpy as np
-            y, sr = librosa.load(self.audio_path, sr=None, duration=60)  # Only load first 60s for speed
+            y, sr = librosa.load(self.audio_path, sr=None, duration=60)
             tempo, beats = librosa.beat.beat_track(y=y, sr=sr)
             self._bpm = float(tempo)
             beat_times = librosa.frames_to_time(beats, sr=sr)
@@ -45,35 +45,16 @@ class AudioProcessor:
             self._beats = []
     
     def get_duration(self):
-        """Get audio duration in seconds"""
         return self._duration or 180.0
     
     def get_bpm(self):
-        """Get BPM"""
         return self._bpm or 120.0
     
     def get_beat_times(self):
-        """Get beat timestamps"""
         return self._beats or []
     
     def get_energy_profile(self, segments=100):
-        """Return a simple energy profile"""
-        try:
-            import librosa
-            import numpy as np
-            y, sr = librosa.load(self.audio_path, sr=None)
-            rms = librosa.feature.rms(y=y)[0]
-            segment_length = max(1, len(rms) // segments)
-            energy_profile = []
-            for i in range(segments):
-                start = i * segment_length
-                end = start + segment_length
-                if end <= len(rms):
-                    energy_profile.append(float(np.mean(rms[start:end])))
-            max_e = max(energy_profile) if energy_profile else 1
-            return [e / max_e for e in energy_profile]
-        except Exception:
-            return [0.5] * segments
+        return [0.5] * segments
     
     def get_onset_times(self):
         return []
