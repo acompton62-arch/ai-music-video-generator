@@ -1,0 +1,1147 @@
+{
+  "24a8b326": {
+    "project_id": "24a8b326",
+    "audio_file": "24a8b326_e09d8f1f_Long Legs and Shortbeds (2).mp3",
+    "bpm": 120.0,
+    "duration": 194.84,
+    "scenes": [
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "wide pan",
+        "duration": 5.71,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 5.71,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 0,
+        "segment_type": "verse",
+        "start_time": 0,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "fade_in",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of a rustic countryside bedroom at golden hour, oversized vintage wooden bed with white linen sheets, warm amber sunlight streaming through lace curtains, dust motes floating in light beams, film grain texture, moody romantic atmosphere, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow reveal",
+        "duration": 4.47,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 10.68,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 1,
+        "segment_type": "verse",
+        "start_time": 6.21,
+        "text": "Always had trouble sleeping",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of a person lying awake in bed at night, eyes open staring at ceiling, moonlight casting blue-silver shadows through window blinds creating striped patterns across the room, restless rumpled sheets, deep blue and silver tones, moody atmospheric lighting, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow reveal",
+        "duration": 5.709999999999999,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 16.88,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 2,
+        "segment_type": "verse",
+        "start_time": 11.17,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "smooth dissolve",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic low angle shot looking up at long bare legs dangling off the end of a short vintage bed, warm golden morning light, rustic wooden floorboards below, cozy quilt and rumpled sheets, shallow depth of field, intimate and humorous mood, film grain, warm amber tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "wide pan",
+        "duration": 5.710000000000001,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 23.09,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 3,
+        "segment_type": "verse",
+        "start_time": 17.38,
+        "text": "Feet hanging off the end",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic overhead shot of a very tall person curled awkwardly in a tiny antique bed, feet hanging far over the edge, cozy patchwork quilt, soft morning light through frosted window, whimsical yet melancholy mood, film grain, warm tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "wide pan",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 28.06,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 4,
+        "segment_type": "verse",
+        "start_time": 23.59,
+        "text": "Driving down the highway",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of a long winding country road at dusk, golden fields stretching to the horizon, lone figure walking away into the distance, dramatic sky with orange and purple clouds, long shadows, film grain, nostalgic melancholy mood, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.7,
+        "camera_movement": "subtle drift",
+        "duration": 4.470000000000002,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 33.02,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 5,
+        "segment_type": "vocalization",
+        "start_time": 28.55,
+        "text": "Radio playing our song",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "smooth dissolve",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot through a rain-streaked bedroom window at night, soft lamplight inside casting warm glow, dark rainy street outside, reflection of a person sitting on bed visible in glass, moody contrast of warm and cold, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "subtle drift",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 37.99,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 6,
+        "segment_type": "verse",
+        "start_time": 33.52,
+        "text": "Windshield full of starlight",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic golden hour bedroom scene, shafts of warm sunlight cutting through dusty curtains, illuminating floating dust particles, empty rumpled bed with impression of a body, intimate and lonely atmosphere, film grain, warm amber and gold tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 1.0,
+        "camera_movement": "subtle drift",
+        "duration": 3.3500000000000014,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 41.83,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 7,
+        "segment_type": "short",
+        "start_time": 38.48,
+        "text": "Where we belong",
+        "text_animation": "typewriter",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of large bare feet touching cold wooden floorboards at dawn, morning light just beginning, rumpled pajama bottoms, old creaking floorboards with character, intimate and quiet morning mood, film grain, cool blue-grey tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "subtle drift",
+        "duration": 5.699999999999996,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 47.91,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 8,
+        "segment_type": "verse",
+        "start_time": 42.21,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic exterior shot of a small charming cottage at twilight, warm light glowing from one window, overgrown garden, old truck in driveway, fireflies beginning to appear, nostalgic rural atmosphere, film grain, blue hour tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "subtle drift",
+        "duration": 5.710000000000001,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 54.12,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          }
+        ],
+        "segment_index": 9,
+        "segment_type": "verse",
+        "start_time": 48.41,
+        "text": "Always had trouble fitting in",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of a vast starry night sky over rolling hills, Milky Way visible, single lit farmhouse window below, sense of smallness and wonder, long exposure style, deep blue and purple tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow push",
+        "duration": 5.710000000000001,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 60.33,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 10,
+        "segment_type": "verse",
+        "start_time": 54.62,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of hands gripping bed sheets in restless sleep, moonlight through curtains, tangled white linen, emotional vulnerability, soft blue-silver light, shallow depth of field, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow push",
+        "duration": 6.950000000000003,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 67.78,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 11,
+        "segment_type": "verse",
+        "start_time": 60.83,
+        "text": "But with you I feel right",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of a tall person looking at themselves in an old bathroom mirror, morning light, tired eyes, small cramped bathroom, honest and introspective mood, film grain, warm morning light mixed with cool shadows, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow push",
+        "duration": 5.700000000000003,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 73.98,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 12,
+        "segment_type": "verse",
+        "start_time": 68.28,
+        "text": "Small towns and big dreams",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic surreal dreamscape, a giant person walking through a miniature village, oversized compared to tiny houses and beds, magical realism style, soft ethereal lighting, pastel tones with film grain, whimsical and melancholy, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow push",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 78.95,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 13,
+        "segment_type": "verse",
+        "start_time": 74.48,
+        "text": "Your hand in mine",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of an empty highway stretching to infinity through flat plains, dramatic storm clouds building on horizon, lone car in distance, sense of freedom and longing, golden hour light, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "gentle pan",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "intensifying_brightness",
+          "warm_tones"
+        ],
+        "end_time": 83.92,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 14,
+        "segment_type": "verse",
+        "start_time": 79.45,
+        "text": "Country roads and moonbeams",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of a luminous full moon through bedroom window, silver light flooding into dark room, silhouette of person sitting on windowsill looking out, contemplative and romantic mood, deep blue tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 1.0,
+        "camera_movement": "subtle drift",
+        "duration": 3.3599999999999994,
+        "effects": [
+          "color_grading",
+          "intensifying_brightness",
+          "warm_tones"
+        ],
+        "end_time": 87.77,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          }
+        ],
+        "segment_index": 15,
+        "segment_type": "short",
+        "start_time": 84.41,
+        "text": "Taking our time",
+        "text_animation": "typewriter",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "smooth dissolve",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of an old analog clock on a bedroom wall showing 3am, moonlight illuminating the clock face, shadows of window frame crossing the wall, time passing slowly, moody and atmospheric, blue-grey tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "dynamic pan",
+        "duration": 5.700000000000003,
+        "effects": [
+          "color_grading",
+          "intensifying_brightness",
+          "warm_tones"
+        ],
+        "end_time": 93.84,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 16,
+        "segment_type": "verse",
+        "start_time": 88.14,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "dynamic wipe",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of golden wheat fields at sunrise, long shadows stretching across the land, single figure standing at field's edge looking toward rising sun, hopeful and expansive mood, warm golden tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "dynamic pan",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "intensifying_brightness",
+          "warm_tones"
+        ],
+        "end_time": 98.81,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 17,
+        "segment_type": "verse",
+        "start_time": 94.34,
+        "text": "Always had trouble sleeping",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "flash transition",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of a person too tall for a small armchair, knees up near chin, reading a book by lamplight, cozy cramped living room, warm amber light, bookshelves overflowing, humorous and endearing mood, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "dramatic zoom",
+        "duration": 5.709999999999994,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 105.02,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 18,
+        "segment_type": "verse",
+        "start_time": 99.31,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "dynamic wipe",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic extreme close-up of raindrops racing down a windowpane, blurred lights of street outside, reflection of bedroom lamp in glass, melancholy and introspective mood, cool blue tones with warm reflections, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "orbit",
+        "duration": 5.700000000000003,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 111.22,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 19,
+        "segment_type": "verse",
+        "start_time": 105.52,
+        "text": "Feet hanging off the end",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "dynamic wipe",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic bedroom at sunrise, first light of dawn creeping under curtains, casting a thin line of gold across the floor, person just waking, stretching long limbs, peaceful and hopeful morning mood, warm golden tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.7,
+        "camera_movement": "push in",
+        "duration": 5.710000000000008,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 117.43,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 20,
+        "segment_type": "vocalization",
+        "start_time": 111.72,
+        "text": "Your laugh like a sunrise",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "flash transition",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic dramatic sky with golden sun rays breaking through dark storm clouds, rays of light illuminating a patchwork of fields below, emotional and uplifting atmosphere, rich warm and cool contrast, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "dramatic zoom",
+        "duration": 5.709999999999994,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 123.64,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 21,
+        "segment_type": "verse",
+        "start_time": 117.93,
+        "text": "Your eyes like the sky",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "quick cut",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of a dramatic sunset sky with towering cumulonimbus clouds lit in orange, red and purple, silhouette of a lone figure on a hilltop, arms outstretched, emotional and cathartic mood, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "orbit",
+        "duration": 5.700000000000003,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 129.84,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 22,
+        "segment_type": "verse",
+        "start_time": 124.14,
+        "text": "With you beside me honey",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "flash transition",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of weathered hands holding an old black and white photograph of a couple, soft lamplight, blurred background of a cozy room, nostalgic and tender mood, warm sepia tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 1.0,
+        "camera_movement": "dramatic zoom",
+        "duration": 3.359999999999985,
+        "effects": [
+          "color_grading",
+          "dynamic_particles",
+          "light_rays",
+          "warm_tones"
+        ],
+        "end_time": 133.7,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 23,
+        "segment_type": "short",
+        "start_time": 130.34,
+        "text": "Time just flies",
+        "text_animation": "typewriter",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "dynamic wipe",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic close-up of an ornate antique hourglass with golden sand flowing, soft dramatic lighting, dark moody background, symbolic of time passing, rich amber and gold tones, shallow depth of field, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow push",
+        "duration": 5.710000000000008,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 139.78,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 24,
+        "segment_type": "verse",
+        "start_time": 134.07,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of a tall figure walking alone down a quiet small-town street at night, streetlights creating pools of warm light, long shadow stretching behind them, quiet and contemplative mood, film grain, cool blue night tones with warm lamp highlights, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "subtle drift",
+        "duration": 5.699999999999989,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 145.98,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 25,
+        "segment_type": "verse",
+        "start_time": 140.28,
+        "text": "We make it work somehow",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic bird's eye view looking straight down at a person sleeping in a small bed, feet and head both touching the ends, cozy patchwork quilt, soft moonlight, peaceful yet constrained, humorous and tender mood, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "gentle pan",
+        "duration": 5.710000000000008,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 152.19,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 26,
+        "segment_type": "verse",
+        "start_time": 146.48,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "smooth dissolve",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of a very tall person hunched over a small kitchen counter making coffee in the early morning, low ceiling, warm kitchen light, steam rising from mug, cozy cramped domestic scene, film grain, warm amber tones, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "subtle drift",
+        "duration": 6.949999999999989,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 159.64,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 27,
+        "segment_type": "verse",
+        "start_time": 152.69,
+        "text": "All I need is you now",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "center"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic panoramic shot of rolling countryside at dusk, patchwork of fields in amber and green, farmhouse lights beginning to glow, first stars appearing, peaceful and nostalgic mood, film grain, golden hour to blue hour transition, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow pull back",
+        "duration": 4.470000000000027,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 164.61,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 28,
+        "segment_type": "verse",
+        "start_time": 160.14,
+        "text": "Driving into the sunset",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "10%",
+          "y": "center"
+        },
+        "transition_in": "crossfade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of golden sunlight filtering through tall forest trees, god rays illuminating floating dust and pollen, person walking through the light, spiritual and uplifting atmosphere, warm golden tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow pull back",
+        "duration": 4.469999999999999,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 169.57,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 29,
+        "segment_type": "verse",
+        "start_time": 165.1,
+        "text": "Nowhere left to be",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "90%",
+          "y": "center"
+        },
+        "transition_in": "smooth dissolve",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic shot of an unmade bed beside a large open window, white curtains billowing in breeze, morning light flooding in, birds audible outside, fresh and hopeful mood, warm white and golden tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 0.8,
+        "camera_movement": "slow pull back",
+        "duration": 5.710000000000008,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 175.78,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 30,
+        "segment_type": "verse",
+        "start_time": 170.07,
+        "text": "Long legs and short beds",
+        "text_animation": "fade_in_hold",
+        "text_position": {
+          "x": "center",
+          "y": "85%"
+        },
+        "transition_in": "fade",
+        "transition_out": "crossfade",
+        "visual_prompt": "Cinematic wide shot of purple twilight over open fields, last light on the horizon, fireflies beginning to glow, tall grass swaying in warm breeze, magical and nostalgic mood, deep purple and gold tones, film grain, photorealistic, 4K"
+      },
+      {
+        "animation_speed": 1.0,
+        "camera_movement": "gentle zoom out",
+        "duration": 3.3499999999999943,
+        "effects": [
+          "color_grading",
+          "warm_tones"
+        ],
+        "end_time": 179.63,
+        "parallax_layers": [
+          {
+            "depth": 1.0,
+            "elements": "atmospheric elements, sky, distant objects",
+            "movement": "slow drift opposite direction"
+          },
+          {
+            "depth": 0.5,
+            "elements": "mid-ground elements",
+            "movement": "medium speed parallax"
+          },
+          {
+            "depth": 0.2,
+            "elements": "foreground elements, particles",
+            "movement": "subtle movement"
+          }
+        ],
+        "segment_index": 31,
+        "segment_type": "short",
+        "start_time": 176.28,
+        "text": "You and me",
+        "text_animation": "typewriter",
+        "text_position": {
+          "x": "center",
+          "y": "15%"
+        },
+        "transition_in": "fade",
+        "transition_out": "fade",
+        "visual_prompt": "Cinematic final wide shot of a new dawn breaking over the horizon, brilliant orange and gold sunrise, silhouette of a person standing tall on a hilltop, arms at sides, peaceful and resolved, triumphant yet quiet mood, film grain, warm golden tones, photorealistic, 4K"
+      }
+    ],
+    "status": "complete",
+    "title": "Long Legs and Shortbeds",
+    "video_path": "24a8b326_music_video.mp4"
+  }
+}

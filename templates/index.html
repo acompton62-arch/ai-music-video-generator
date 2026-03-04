@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Music Video Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🎵 AI Music Video Generator</h1>
+            <p>Transform your MP3 and lyrics into stunning music videos with AI</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section" id="uploadSection">
+                <div class="upload-card">
+                    <h2>1. Upload Your Music</h2>
+                    <div class="upload-area" id="audioUploadArea">
+                        <div class="upload-icon">🎵</div>
+                        <p class="upload-text">Drag & drop your MP3 file here</p>
+                        <p class="upload-subtext">or click to browse</p>
+                        <input type="file" id="audioInput" accept=".mp3,.wav,.m4a" hidden>
+                    </div>
+                    
+                    <div id="audioInfo" class="file-info hidden">
+                        <div class="file-info-content">
+                            <span class="file-icon">🎵</span>
+                            <div class="file-details">
+                                <p class="file-name" id="audioFileName"></p>
+                                <p class="file-meta" id="audioMeta"></p>
+                            </div>
+                            <button class="remove-btn" id="removeAudio">✕</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upload-card">
+                    <h2>2. Enter Your Lyrics</h2>
+                    <div class="lyrics-input-container">
+                        <textarea 
+                            id="lyricsInput" 
+                            class="lyrics-textarea"
+                            placeholder="Paste your lyrics here...
+
+You can paste plain text or LRC format with timestamps:
+[00:00.50]First line of lyrics
+[00:04.20]Second line of lyrics
+...
+"
+                        ></textarea>
+                        <div class="lyrics-tools">
+                            <span class="lyrics-counter" id="lyricsCounter">0 characters</span>
+                            <button class="btn-secondary" id="clearLyrics">Clear</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upload-card">
+                    <h2>3. Choose Your Style</h2>
+                    <div class="style-grid">
+                        <div class="style-option active" data-style="cinematic">
+                            <div class="style-icon">🎬</div>
+                            <h3>Cinematic</h3>
+                            <p>Dramatic film-style visuals</p>
+                        </div>
+                        <div class="style-option" data-style="animated">
+                            <div class="style-icon">🎨</div>
+                            <h3>Animated</h3>
+                            <p>Vibrant cartoon aesthetics</p>
+                        </div>
+                        <div class="style-option" data-style="abstract">
+                            <div class="style-icon">🌀</div>
+                            <h3>Abstract</h3>
+                            <p>Modern artistic interpretation</p>
+                        </div>
+                        <div class="style-option" data-style="nature">
+                            <div class="style-icon">🌿</div>
+                            <h3>Nature</h3>
+                            <p>Beautiful natural landscapes</p>
+                        </div>
+                        <div class="style-option" data-style="urban">
+                            <div class="style-icon">🏙️</div>
+                            <h3>Urban</h3>
+                            <p>Cityscape and street vibes</p>
+                        </div>
+                        <div class="style-option" data-style="fantasy">
+                            <div class="style-icon">✨</div>
+                            <h3>Fantasy</h3>
+                            <p>Magical and ethereal visuals</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upload-card">
+                    <h2>4. Customize Options</h2>
+                    <div class="options-container">
+                        <div class="option-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="showLyrics" checked>
+                                <span>Show lyrics on video</span>
+                            </label>
+                        </div>
+                        <div class="option-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="autoSync" checked>
+                                <span>Auto-sync lyrics to audio</span>
+                            </label>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label">
+                                <span>Transition Style:</span>
+                                <select id="transitionStyle" class="option-select">
+                                    <option value="fade">Fade</option>
+                                    <option value="cut">Quick Cut</option>
+                                    <option value="crossfade">Crossfade</option>
+                                    <option value="wipe">Wipe</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn-primary btn-large" id="generateBtn" disabled>
+                        <span class="btn-icon">🎬</span>
+                        Generate Music Video
+                    </button>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section class="progress-section hidden" id="progressSection">
+                <div class="progress-card">
+                    <h2>Creating Your Music Video</h2>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">Initializing...</p>
+                        <p class="progress-percent" id="progressPercent">0%</p>
+                    </div>
+                    <div class="progress-steps">
+                        <div class="progress-step" id="step1">
+                            <div class="step-number">1</div>
+                            <div class="step-text">Analyzing Audio</div>
+                        </div>
+                        <div class="progress-step" id="step2">
+                            <div class="step-number">2</div>
+                            <div class="step-text">Processing Lyrics</div>
+                        </div>
+                        <div class="progress-step" id="step3">
+                            <div class="step-number">3</div>
+                            <div class="step-text">Planning Scenes</div>
+                        </div>
+                        <div class="progress-step" id="step4">
+                            <div class="step-number">4</div>
+                            <div class="step-text">Generating Images</div>
+                        </div>
+                        <div class="progress-step" id="step5">
+                            <div class="step-number">5</div>
+                            <div class="step-text">Composing Video</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section hidden" id="resultsSection">
+                <div class="results-card">
+                    <h2>🎉 Your Music Video is Ready!</h2>
+                    <div class="video-container">
+                        <video id="resultVideo" controls preload="metadata">
+                            Your browser does not support video playback.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <p><strong>Duration:</strong> <span id="videoDuration"></span></p>
+                        <p><strong>Style:</strong> <span id="videoStyle"></span></p>
+                        <p><strong>Scenes:</strong> <span id="videoScenes"></span></p>
+                    </div>
+                    <div class="result-actions">
+                        <a class="btn-primary" id="downloadBtn" download>
+                            <span class="btn-icon">⬇️</span>
+                            Download Video
+                        </a>
+                        <button class="btn-secondary" id="newVideoBtn">
+                            <span class="btn-icon">🔄</span>
+                            Create Another
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Scene Preview -->
+                <div class="scenes-preview" id="scenesPreview">
+                    <h3>Scene Breakdown</h3>
+                    <div class="scenes-grid" id="scenesGrid"></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>AI Music Video Generator • Created with ❤️</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
